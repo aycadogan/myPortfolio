@@ -1,0 +1,40 @@
+.home-page{
+
+    .text-zone{
+        position: absolute;
+        left:10%;
+        top:40%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+        line-height: 100px;
+    }
+    .text-pink{
+        color: #FD4370;
+    }
+    h1{
+        color: #fff;
+        font-size: 60px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .button{
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        padding: 18px;
+        border: 1px solid #FD4370;
+        background: #FD4370;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: #383D5E;
+            border: 1px solid #383D5E;
+        }
+    }
+}
