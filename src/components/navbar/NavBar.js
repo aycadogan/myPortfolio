@@ -1,21 +1,27 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import './NavBar.scss'
-
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const NavBar = () => {
   return (
-    <nav className='site-nav grid'>
-        <Link to='/'>
-          <h1>Ayca Dogan</h1>
-        </Link>
-        <ul>
-          <NavLink to='/projects'><li>Projects</li></NavLink>
-          <NavLink to='/about'><li>About</li> </NavLink>
-          <NavLink to='/connect'><li>Connect</li></NavLink>
-        </ul>
-    </nav>
-
+    <Navbar className='site-nav ' expand="lg">
+      <Container fluid className="navbar-container">
+        <Navbar.Brand href="/">
+          <img src="/images/logo.png" alt="" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" className='bg-light' />
+        <Navbar.Collapse id="navbarScroll " className="justify-content-end"  >
+          <Nav
+            style={{ maxHeight: 'auto' }}
+            navbarScroll
+          >
+            <Nav.Link href="#project">Projects</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href='#connect'>Connect</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 

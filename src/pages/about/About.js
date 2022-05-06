@@ -15,24 +15,22 @@ const About = () => {
   
   
   return (
-    <div className='container about-page'>
+   
+    <div className='full-page about-page' id="about">
       <div className='text-zone'>
-          <h1>
-            {/* <AnimatedLetters
-            letterClass={letterClass}
-            strArray={['A','b','o','u','t',' ','m','e']}
-            idx={15} /> */}
-          </h1>
-          <p>Who am I</p>
-          <p>
-            Hi!I am Ayca Dogan. I'm a web developer & UI designer with a technical background. I create responsive web applications using mobile first approach from the perspective of both engineers and designers.
+          <h2 className='padding-bottom'>
+            About Me
+          </h2>
+          <h4 className='text-pink'>Who am I</h4>
+          <p className='para'>
+            Hi!I am Ayca Dogan. I'm currently learning web development in CICC. Also, I obtained a master degree in Digital Solutions Development from Barcelona Technology School. This leads me to create <span className='dancing-script'>engaging</span> and <span className="dancing-script">user friendly</span> web experiences. 
           </p>
-          <p>Skills & Tools</p>
+          <h4 className='text-pink'>Skills & Tools</h4>
           <p>Languages: JavaScript, HTML, CSS</p> 
-          <p>Frameworks: React, NodeJS, Express</p>
-          <p>Databases&Tools: MongoDB, MySQL, Firebase, Postman, Git</p>
-
-          <div className="stage-cube-cont">
+          <p>Frameworks: React, NodeJS, Express, Bootstrap</p>
+          <p>Databases&Tools: MongoDB, MySQL, Firebase, UXPin, Postman, Git</p>
+        </div>
+      <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faNode} color="#43853D" />
@@ -54,8 +52,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
     </div>
+   
+
   )
 }
 
