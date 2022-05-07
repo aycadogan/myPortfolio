@@ -29,7 +29,7 @@ const Connect = () => {
   return (
     <div className='full-page connect' id="connect">
       <div className="text-zone">
-        <h2>Interested in working with me <br /> or perhaps just talk?</h2>
+        <h2 className='padding-bottom'>Interested in working with me or perhaps just talk?</h2>
       </div>
       <p>Don't hesitate to contact me using below form or by sending an email to <span className='text-pink'>doganayca89@gmail.com</span></p>
       <div className="contact-form">

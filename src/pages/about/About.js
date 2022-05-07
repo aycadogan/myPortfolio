@@ -21,14 +21,14 @@ const About = () => {
           <h2 className='padding-bottom'>
             About Me
           </h2>
-          <h4 className='text-pink'>Who am I</h4>
+          <h4 className='text-pink'>Who I am</h4>
           <p className='para'>
-            Hi!I am Ayca Dogan. I'm currently learning web development in CICC. Also, I obtained a master degree in Digital Solutions Development from Barcelona Technology School. This leads me to create <span className='dancing-script'>engaging</span> and <span className="dancing-script">user friendly</span> web experiences. 
+            Hi!I am Ayca Dogan. I'm currently learning web development in CICC. Having a master degree in Digital Solutions Development from Barcelona Technology School involved me in creating <span className='dancing-script'>engaging</span> and <span className="dancing-script">user friendly</span> web experiences. 
           </p>
           <h4 className='text-pink'>Skills & Tools</h4>
-          <p>Languages: JavaScript, HTML, CSS</p> 
-          <p>Frameworks: React, NodeJS, Express, Bootstrap</p>
-          <p>Databases&Tools: MongoDB, MySQL, Firebase, UXPin, Postman, Git</p>
+          <p><strong>Languages:</strong>  JavaScript, HTML, CSS</p> 
+          <p><strong>Frameworks:</strong>  React, NodeJS, Express, Bootstrap</p>
+          <p><strong>Databases&Tools:</strong>  MongoDB, MySQL, Firebase, UXPin, Postman, Git</p>
         </div>
       <div className="stage-cube-cont">
           <div className="cubespinner">
