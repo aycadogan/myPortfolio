@@ -5,7 +5,6 @@ import beachblog from '../../assets/videos/beachblog.mp4'
 import moderncooking from '../../assets/videos/moderncooking.mp4'
 import pisa from '../../assets/videos/pisa.mp4'
 
-//
 const Projects = () => {
   const [loadMore, setLoadMore] = useState(false)
 
