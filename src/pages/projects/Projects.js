@@ -15,7 +15,7 @@ const Projects = () => {
         <div className='para'>
           <h4 className='text-pink'>HOME SHOP</h4>
           <p>
-            An e-commerce application with MERN Stack.Admin user is
+            An e-commerce application with built on the MERN stack.Admin user is
             admin@test.com and Password:123
           </p>
           <p>
