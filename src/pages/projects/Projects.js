@@ -15,8 +15,8 @@ const Projects = () => {
         <div className='para'>
           <h4 className='text-pink'>HOME SHOP</h4>
           <p>
-            An e-commerce application with built on the MERN stack.Admin user is
-            admin@test.com and Password:123
+            An e-commerce application with built on the MERN stack. Admin user
+            is admin@test.com and Password:123
           </p>
           <p>
             <strong>Technologies:</strong> JS, React, NodeJS, React Bootstrap,
@@ -96,10 +96,10 @@ const Projects = () => {
               <h4 className='text-pink'>MODERN COOKING</h4>
               <p>
                 A recipe list project with Firebase backend. You can post
-                recipes,delete recipes and search for recipes.
+                recipes, delete recipes and search for recipes.
               </p>
               <p>
-                <strong>Technologies:</strong>JS, React, CSS, Firebase
+                <strong>Technologies:</strong> JS, React, CSS, Firebase
               </p>
             </div>
 
@@ -136,7 +136,7 @@ const Projects = () => {
                 internship project.
               </p>
               <p>
-                <strong>Technologies:</strong>HTML, CSS, Javascript
+                <strong>Technologies:</strong> HTML, CSS, Javascript
               </p>
             </div>
             <div className='links'>

@@ -32,7 +32,7 @@ const About = () => {
         </p>
         <p>
           <strong>Databases&Tools:</strong> MongoDB, MySQL, Firebase, UXPin,
-          Postman, Git
+          Postman, Git, Figma
         </p>
       </div>
       <div className='stage-cube-cont'>
