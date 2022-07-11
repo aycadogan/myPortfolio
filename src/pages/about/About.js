@@ -17,11 +17,11 @@ const About = () => {
         <h2 className='padding-bottom'>About Me</h2>
         <h4 className='text-pink'>Who I am</h4>
         <p className='para'>
-          Hi!I am Ayca Dogan. I'm currently learning web development in CICC.
-          Having a master degree in Digital Solutions Development from Barcelona
-          Technology School involved me in creating{' '}
-          <span className='dancing-script'>engaging</span> and{' '}
-          <span className='dancing-script'>user friendly</span> web experiences.
+          Hi! I am Ayca Dogan. I'm a Web Developer located in Vancouver.
+          Specializes in React.js and Javascript. Having a master's degree in
+          Digital Solutions Development from Barcelona Technology School
+          involved me in creating <span className='text-pink'>engaging</span>{' '}
+          and <span className='text-pink'>user friendly</span> web experiences.
         </p>
         <h4 className='text-pink'>Skills & Tools</h4>
         <p>
