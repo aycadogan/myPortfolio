@@ -34,6 +34,14 @@ const About = () => {
           <strong>Databases&Tools:</strong> MongoDB, MySQL, Firebase, UXPin,
           Postman, Git, Figma
         </p>
+        <a
+          href='https://www.linkedin.com/in/aycadogan/'
+          className='button'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Click here to see my resume
+        </a>
       </div>
       <div className='stage-cube-cont'>
         <div className='cubespinner'>
