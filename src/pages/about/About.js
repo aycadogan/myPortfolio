@@ -25,7 +25,8 @@ const About = () => {
           Development from Barcelona Technology School involved me in creating{' '}
           <span className='text-pink'>engaging</span> and{' '}
           <span className='text-pink'>user friendly</span> web experiences. I
-          decided to invest in myself and my future by enrolling in Cornerstone
+          have always been passionate about web development, which led me to
+          invest in myself and my future by enrolling in Cornerstone
           International Community College’s Web Development program. With a
           passion for both personal growth and web development, I attended a
           1000+ hour coding lectures to learn new languages while sharpening my
