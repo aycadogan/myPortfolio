@@ -17,13 +17,13 @@ const About = () => {
         <h2 className='padding-bottom'>About Me</h2>
         <h4 className='text-pink'>Who I am</h4>
         <p className='para'>
-          Hi! I am Ayca Dogan. I’m an industrial engineer turned Web Developer
-          located in Vancouver. I love traveling the world, meeting new people,
-          exploring different cultures, and taking advantage of each opportunity
-          to learn something new. This desire to learn and grow, has led me to
-          where I am today! Having a master's degree in Digital Solutions
-          Development from Barcelona Technology School involved me in creating{' '}
-          <span className='text-pink'>engaging</span> and{' '}
+          Hi! I am Ayca Dogan. I’m an industrial engineer turned Full Stack Web
+          Developer located in Vancouver. I love traveling the world, meeting
+          new people, exploring different cultures, and taking advantage of each
+          opportunity to learn something new. This desire to learn and grow, has
+          led me to where I am today! Having a master's degree in Digital
+          Solutions Development from Barcelona Technology School involved me in
+          creating <span className='text-pink'>engaging</span> and{' '}
           <span className='text-pink'>user friendly</span> web experiences. I
           have always been passionate about web development, which led me to
           invest in myself and my future by enrolling in Cornerstone

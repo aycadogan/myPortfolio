@@ -19,7 +19,10 @@ const Home = () => {
         <div className='text-zone'>
           <h1>
             Hi, I am <span className='text-pink'>Ayca</span>
-            <br />a <span className='text-pink'>Web Developer</span> &
+            <br />a <span className='text-pink'>
+              Full Stack Web Developer
+            </span>{' '}
+            &
             <br /> UI Designer.
           </h1>
           <p>
