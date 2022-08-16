@@ -88,7 +88,7 @@ const Projects = () => {
 
       <div className='projects'>
         <div className='para'>
-          <h4 className='text-pink'>Fitness App</h4>
+          <h4 className='text-pink'>GYM</h4>
           <p>
             Exercise App with the functionality to choose exercise categories
             and spesific muscle groups. Browsing exercises and exercise
