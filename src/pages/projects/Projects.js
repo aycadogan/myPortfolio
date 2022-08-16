@@ -5,6 +5,7 @@ import beachblog from '../../assets/videos/beachblog.mp4'
 import moderncooking from '../../assets/videos/moderncooking.mp4'
 import pisa from '../../assets/videos/pisa.mp4'
 import myworkouts from '../../assets/videos/myworkouts.mp4'
+import exercise from '../../assets/videos/exercise.mp4'
 
 const Projects = () => {
   const [loadMore, setLoadMore] = useState(false)
@@ -84,6 +85,45 @@ const Projects = () => {
           </video>
         </div>
       </div>
+
+      <div className='projects'>
+        <div className='para'>
+          <h4 className='text-pink'>Fitness App</h4>
+          <p>
+            Exercise App with the functionality to choose exercise categories
+            and spesific muscle groups. Browsing exercises and exercise
+            details.Displaying similar exercises.{' '}
+          </p>
+          <p>
+            <strong>Technologies:</strong> JS, React, Material UI, CSS,
+            RapidAPI.{' '}
+          </p>
+        </div>
+        <div className='links'>
+          <a
+            href='https://polite-mousse-63c9e9.netlify.app/'
+            className='button'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Visit the site
+          </a>
+          <a
+            href='https://github.com/aycadogan/FitnessExercises'
+            className='button'
+            target='_blank'
+            rel='noreferrer'
+          >
+            GitHub Codes
+          </a>
+        </div>
+        <div className='videos'>
+          <video autoPlay loop muted>
+            <source src={exercise} type='video/mp4' />
+          </video>
+        </div>
+      </div>
+
       <div className='projects'>
         <div className='para'>
           <h4 className='text-pink'>BEACH BLOG</h4>
