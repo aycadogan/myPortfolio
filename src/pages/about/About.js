@@ -40,10 +40,10 @@ const About = () => {
         </p>
         <h4 className='text-pink'>Skills & Tools</h4>
         <p>
-          <strong>Languages:</strong> JavaScript, HTML, CSS, Phyton
+          <strong>Languages:</strong> JavaScript, HTML, CSS, Phyton, PHP
         </p>
         <p>
-          <strong>Frameworks:</strong> React, NodeJS, Express, Bootstrap
+          <strong>Frameworks:</strong> React, Redux, NodeJS, Express, Bootstrap
         </p>
         <p>
           <strong>Databases&Tools:</strong> MongoDB, MySQL, Firebase, UXPin,
