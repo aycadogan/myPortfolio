@@ -40,7 +40,7 @@ const About = () => {
         </p>
         <h4 className='text-pink'>Skills & Tools</h4>
         <p>
-          <strong>Languages:</strong> JavaScript, HTML, CSS, Phyton, PHP
+          <strong>Languages:</strong> JavaScript, HTML, CSS, Phyton, Typescript
         </p>
         <p>
           <strong>Frameworks:</strong> React, Redux, NodeJS, Express, Bootstrap
